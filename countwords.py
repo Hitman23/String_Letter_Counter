@@ -26,16 +26,19 @@ class stringCount:
             #increment the iteration factor(acting as our index) so as to access the next element in the sequence     
             iterator+=1
 
-
+        #return the dictionary
         return dictionary
 
 
-
+#a list of strings/messages that are provided as actual parameters for the countWords function
 wordstocount = ["hi there, how are you","are you coming for lunch tonight", "when are we going to the movies"]
+#a prompt for the user to enter his or her message
 newword = raw_input("Type your message here:")
+#add the user's message into our list
 wordstocount.append(newword)
+#creating object of the stringcount class
 returnedData = stringCount()
-
+#printing our output
 print returnedData.countWords(wordstocount)
 
 
