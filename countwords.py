@@ -1,7 +1,7 @@
 
-class stringCount:
+class StringCount:
 
-    def countWords(self,x):
+    def count_Words(self,x):
         
         #define a dictionary to which we shall add the words and there values
         dictionary = {}
@@ -34,18 +34,18 @@ class stringCount:
 
 
 #a list of strings/messages that are provided as actual parameters for the countWords function
-wordstocount = ["hi there, how are you","are you coming for lunch tonight", "when are we going to the movies"]
+words_to_count = ["hi there, how are you","are you coming for lunch tonight", "when are we going to the movies"]
 #a prompt for the user to enter his or her message
-newword = raw_input("Type your message here:")
+new_word = raw_input("Type your message here:")
 
 #add the user's message into our list
-wordstocount.append(newword)
+words_to_count.append(newword)
 
 #creating object of the stringcount class
-returnedData = stringCount()
+returned_Data = StringCount()
 
 #printing our output
-print returnedData.countWords(wordstocount)
+print returned_Data.count_Words(words_to_count)
 
 
     
