@@ -39,7 +39,7 @@ words_to_count = ["hi there, how are you","are you coming for lunch tonight", "w
 new_word = raw_input("Type your message here:")
 
 #add the user's message into our list
-words_to_count.append(newword)
+words_to_count.append(new_word)
 
 #creating object of the stringcount class
 returned_Data = StringCount()
